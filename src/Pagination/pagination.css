@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  list-style-type: none;
+}
+.page-item.active .page-link {
+  background-color: antiquewhite;
+  color: black;
+  height: 30px;
+  width: 30px;
+}
+.page-item .page-link {
+  border-radius: 0px !important;
+
+  border: none;
+  color: black;
+}
